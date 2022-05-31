@@ -22,11 +22,11 @@ public class ExcelReader : EditorWindow
     #endregion
 
     #region create window example
-    //[MenuItem("Excel/Excel Reader")]
-    // public static void ShowWindow()
-    // {
-    //     GetWindow<ExcelReader>().Show();
-    // }
+    [MenuItem("Excel/Excel Reader")]
+    public static void ShowWindow()
+    {
+        GetWindow<ExcelReader>().Show();
+    }
     #endregion
 
     public virtual void OnGUI()
